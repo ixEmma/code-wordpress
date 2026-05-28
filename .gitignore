@@ -1,0 +1,27 @@
+.env
+.env.*
+wp-config.php
+*.sql
+*.zip
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+*.log
+.cache/
+dist/
+build/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+backup*/
+*.bak
+*.tmp
+
+# Keep screenshot documentation, skip large binary references.
+elementor-outputs/screenshots/*
+!elementor-outputs/screenshots/README.md
+
+# Keep curated reference docs, skip raw private Elementor exports unless requested.
+elementor-outputs/references/exports/
