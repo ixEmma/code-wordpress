@@ -1,5 +1,4 @@
-﻿# 1st Providence Rebuild Blueprint
-
+﻿# AI wordpress
 Public documentation for the 1st Providence WordPress and Elementor rebuild.
 
 This repository is intentionally documentation-only. It should not contain Elementor exports, WordPress backups, database files, screenshots, media assets, full website copies, or private client page output.
