@@ -39,6 +39,7 @@ Avoid custom JavaScript for normal page sections.
 - Medication Aide 68 Hour
 - Medication Management
 - Electrocardiogram Technician
+- Personal Care Aide (PCA)
 
 ## Import Notes
 

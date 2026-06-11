@@ -10,6 +10,7 @@
 - Medication Aide 68 Hour page blueprint documented.
 - Medication Management page blueprint documented.
 - Electrocardiogram Technician page blueprint documented.
+- Personal Care Aide (PCA) page blueprint documented.
 - Global typography, color, and button rules documented.
 - Elementor class naming conventions documented.
 

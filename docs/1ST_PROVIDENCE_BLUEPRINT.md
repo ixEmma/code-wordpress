@@ -94,6 +94,16 @@ Blueprint covers the Electrocardiogram Technician (EKG) program page with:
 - Registration and semester date sections.
 - Final EKG CTA.
 
+### Personal Care Aide (PCA) Page
+
+Blueprint covers the Personal Care Aide (PCA) program page with:
+
+- Caregiving image hero banner.
+- Blue intro section explaining the Medicaid Waivers personal care focus.
+- Two-column PCA requirements section.
+- Final healthcare career CTA.
+- Map section directly above the global footer.
+
 ## Global Typography Rules
 
 Use the established 1st Providence Elementor Site Settings typography system.
@@ -140,6 +150,7 @@ Class prefixes documented during the rebuild:
 - Medication Aide 68 Hour page: `provmed68-*`.
 - Medication Management page: `provmanage-*`.
 - Electrocardiogram Technician page: `provekg-*`.
+- Personal Care Aide page: `provpca-*`.
 
 Rules:
 

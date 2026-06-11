@@ -18,6 +18,7 @@
 - Build Medication Aide 68 Hour.
 - Build Medication Management.
 - Build Electrocardiogram Technician.
+- Build Personal Care Aide (PCA).
 - Use page-specific class prefixes for scoped styling.
 
 ## Phase 4: Review And Launch

@@ -1,22 +1,47 @@
-.env
-.env.*
-.env.local
-wp-config.php
-.elementor/
-wp-content/
-uploads/
+# Private Elementor / WordPress outputs
+elementor-outputs/
+elementor-templates/
 *.json
 *.wpress
 *.sql
+*.xml
 *.zip
 *.tar
 *.gz
-*.xml
+
+# WordPress/client folders
+wp-content/
+uploads/
+.elementor/
+backup/
+backups/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+backup*/
+
+# Client media/assets
 *.jpg
 *.jpeg
 *.png
 *.webp
+*.gif
+*.svg
 *.pdf
+*.psd
+*.ai
+*.indd
+
+# Private project prompts / local agent files
+AGENTS.md
+
+# Environment/system files
+.env
+.env.*
+.env.local
+.env.production
+wp-config.php
 node_modules/
 vendor/
 .DS_Store
@@ -25,18 +50,5 @@ Thumbs.db
 .cache/
 dist/
 build/
-elementor-outputs/
-wp-content/uploads/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/backup*/
-backup*/
 *.bak
 *.tmp
-
-# Keep screenshot documentation, skip large binary references.
-elementor-outputs/screenshots/*
-!elementor-outputs/screenshots/README.md
-
-# Keep curated reference docs, skip raw private Elementor exports unless requested.
-elementor-outputs/references/exports/
