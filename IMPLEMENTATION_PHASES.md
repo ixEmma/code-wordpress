@@ -19,6 +19,7 @@
 - Build Medication Management.
 - Build Electrocardiogram Technician.
 - Build Personal Care Aide (PCA).
+- Build Basic Life Support Provider.
 - Use page-specific class prefixes for scoped styling.
 
 ## Phase 4: Review And Launch
@@ -27,3 +28,24 @@
 - Replace `#` button placeholders with final URLs.
 - Verify responsive behavior.
 - Check that no private exports or client assets enter the public repository.
+
+## Public Repository Workflow Phase
+
+Purpose:
+Make the repository useful for followers and future agents without exposing private client work.
+
+Scope:
+- Public documentation structure
+- Agent rules
+- Output folder placeholders
+- Reference export workflow
+- Private generated template protection
+- Daily work privacy separation
+
+Completion criteria:
+- AGENTS.md is commit-ready.
+- Folder structure is visible.
+- Generated templates remain ignored.
+- Private templates remain ignored.
+- Public reference exports are allowed.
+- README explains the workflow clearly.

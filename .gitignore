@@ -1,27 +1,69 @@
-# Private Elementor / WordPress outputs
-elementor-outputs/
-elementor-templates/
-*.json
-*.wpress
+# Environment and credentials
+.env
+.env.*
+!.env.example
+.env.local
+.env.production
+wp-config.php
+
+# Dependencies/build output
+node_modules/
+vendor/
+.cache/
+dist/
+build/
+
+# OS/editor/system files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+
+# WordPress backups, databases, and site copies
 *.sql
-*.xml
-*.zip
+*.sql.gz
+*.wpress
 *.tar
 *.gz
-
-# WordPress/client folders
 wp-content/
+wordpress/
 uploads/
-.elementor/
 backup/
 backups/
+database/
+media-library/
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
 wp-content/backup*/
 backup*/
 
-# Client media/assets
+# Private/generated Elementor outputs
+elementor-outputs/elementor-templates/*.json
+elementor-outputs/private-templates/**
+
+# Keep public placeholder files inside ignored output folders
+!elementor-outputs/elementor-templates/.gitkeep
+!elementor-outputs/elementor-templates/README.md
+!elementor-outputs/private-templates/.gitkeep
+!elementor-outputs/private-templates/README.md
+
+# Public reference exports are allowed
+!elementor-outputs/
+!elementor-outputs/README.md
+!elementor-outputs/references/
+!elementor-outputs/references/**
+!elementor-outputs/section-maps/
+!elementor-outputs/section-maps/**
+
+# Private local agent/daily work notes
+AGENTS.local.md
+AGENT_PRIVATE_NOTES.md
+LOCAL_DAILY_WORK.md
+DAILY_WORKLOG.md
+
+# Client media/assets should not be committed by default
 *.jpg
 *.jpeg
 *.png
@@ -33,22 +75,6 @@ backup*/
 *.ai
 *.indd
 
-# Private project prompts / local agent files
-AGENTS.md
-
-# Environment/system files
-.env
-.env.*
-.env.local
-.env.production
-wp-config.php
-node_modules/
-vendor/
-.DS_Store
-Thumbs.db
-*.log
-.cache/
-dist/
-build/
-*.bak
-*.tmp
+# Allow documentation images only when placed in approved public reference folders
+!elementor-outputs/references/screenshots/
+!elementor-outputs/references/screenshots/**
